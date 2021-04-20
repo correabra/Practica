@@ -1,0 +1,16 @@
+for (var a = 0; a < 8; a++) {   
+    console.log(a);
+}
+
+for (var b = 10; b < 100; b += 10) {   
+    console.log(b);
+}
+
+for (var c = 16; c > 0; c--) {
+    console.log(c);
+}
+
+for (var d = 0; d < 100; d++) {
+    console.log(d);
+    d += 5;
+}
