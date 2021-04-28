@@ -1,0 +1,55 @@
+var h = [2,4,6,8,10];
+for (var i = 0; i < h.length; i++) {
+    console.log(i);
+    console.log(h[i]);
+}
+
+
+
+var j = [2,4,6,8,10];
+for (var k = j.length - 1; k > 0; k--) {
+    console.log(k);
+    console.log(j[k]);
+}
+
+
+var m = [2,4,6,8,10];
+for (var n = 0; n < m.length; n += 2) {
+    console.log(n);
+    console.log(m[n]);
+}
+
+
+var p = [-1,0,5,-3,2];
+for (var q = 0; q < p.length; q++) {
+    if (p[q] < 0) {
+        p[q] = "Dojo";
+    }
+}
+console.log(p);
+
+
+var r = [-1,0,5,-3,2];
+for (var s = 0; s < r.length; s++) {
+    if (r[s] > 0) {
+        r[s] = r[s] * r[s];
+    }
+}
+console.log(r);
+
+
+var t = [];
+for (var u = 0; u < 4; u++) {
+    t.push(u);
+}
+console.log(t);<div id="copy-toolbar-container" style="cursor: pointer; position: absolute; top: 5px; right: 5px; padding: 0px 3px; background: rgba(224, 224, 224, 0.2); box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px 0px; color: rgb(187, 187, 187); border-radius: 0.5em; font-size: 0.8em;"><span id="copy-toolbar">copy</span></div>
+
+
+var v = [1,2,3,4,5];
+for (var w = 0; w < v.length; w++) {
+    v.pop();
+}
+console.log(v);
+
+
+
